@@ -13,8 +13,7 @@ PIV output mat file: velocity_20200226_01_D600ROI01_avg50skip1shift2_001-143 (nu
                    kymograph (e.g. if the kymograph is 200 pixels wide, then 001-143 means only the first
                    143 lines are included in flow velocity calculation, and the rest is cropped out). 
 
-
-PIV method
+Operation instructions: 
 1. If the original tif data is in 2D, first draw the line ROIs in image J, save the ROI file in the name
    format described in section 2. 
    Then run 'getKymo.m'. Remember to fill in the file path and required fields in the script to specify 
